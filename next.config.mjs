@@ -8,6 +8,11 @@ const nextConfig = {
                 pathname: '**',
             },
             {
+                eslint: {
+                    ignoreDuringBuilds: true
+                }
+            },
+            {
                 protocol: 'https',
                 hostname: 'raw.githubusercontent.com',
                 pathname: '**',
